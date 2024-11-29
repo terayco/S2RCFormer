@@ -51,21 +51,7 @@ MFT论文中采用的是disjoint划分，但这个数据集我只找到了整张
 训练集为TrainImage，测试集为TestImage
 注意：这个数据集太大了，所以这个数据集的patch size 此项目设置成7 * 7
 
-# 3. 配置邮箱（可选）
-如果要使用邮箱接收运行结果：
-   1. 申请邮箱授权码（[如何获得qq邮箱授权码](https://zhuanlan.zhihu.com/p/668505100)）
-
-   2. 修改sendmail.py：
-      - sendAddr,recipientAddrs=邮箱
-      - password=授权码
-
-   3. 取消注释test.sh文件中的倒数第一行和倒数第三行
-      ```shell
-      # python sendmail.py --title "finished : ${my_array[$i]} ($a/$sum)" --content "$result"
-      # python sendmail.py --content "ALL FINISHED!" --file "YES" --title "AUTODL ALL $sum TASK FINISHED"
-      ```
-
-# 4. 运行
+# 3. 运行
 利用test.sh可以批量化运行一系列不同配置的实验。
 
 ## 运行步骤：
