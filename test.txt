@@ -1,0 +1,12 @@
+1
+True
+----------------------------------Training for  Augsburg  ---------------------------------------------
+HSI Tr data shape = torch.Size([761, 180, 49])
+DSM Tr data shape = torch.Size([761, 1, 49])
+Tr label shape = torch.Size([761])
+HSI Te data shape = torch.Size([77533, 180, 49])
+DSM Te data shape = torch.Size([77533, 1, 49])
+Te label shape = torch.Size([77533])
+Number of Classes =  7
+Number of band =  180
+180 1 7

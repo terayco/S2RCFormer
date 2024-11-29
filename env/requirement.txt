@@ -1,0 +1,10 @@
+torch
+einops
+timm
+torchsummary
+scikit-learn
+torchvision
+sklearn
+scipy
+openpyxl
+tensorboard
